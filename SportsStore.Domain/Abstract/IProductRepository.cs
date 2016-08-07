@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using SportsStore.Domain.Entities;
 
+
+// why we need this??
 namespace SportsStore.Domain.Abstract
 {
     public interface IProductRepository
