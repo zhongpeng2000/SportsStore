@@ -157,10 +157,10 @@
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="scripts\ai.0.22.9-build00167.js" />
-    <Content Include="scripts\ai.0.22.9-build00167.min.js" />
-    <Content Include="scripts\bootstrap.js" />
-    <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="Models\scripts\ai.0.22.9-build00167.js" />
+    <Content Include="Models\scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="Models\scripts\bootstrap.js" />
+    <Content Include="Models\scripts\bootstrap.min.js" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -169,27 +169,28 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <None Include="scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="scripts\jquery-1.10.2.js" />
-    <Content Include="scripts\jquery-1.10.2.min.js" />
-    <Content Include="scripts\jquery-1.10.2.min.map" />
-    <None Include="scripts\jquery-3.1.0.intellisense.js" />
-    <Content Include="scripts\jquery-3.1.0.js" />
-    <Content Include="scripts\jquery-3.1.0.min.js" />
-    <Content Include="scripts\jquery-3.1.0.slim.js" />
-    <Content Include="scripts\jquery-3.1.0.slim.min.js" />
-    <None Include="scripts\jquery.validate-vsdoc.js" />
-    <Content Include="scripts\jquery.validate.js" />
-    <Content Include="scripts\jquery.validate.min.js" />
-    <Content Include="scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="scripts\modernizr-2.6.2.js" />
-    <Content Include="scripts\modernizr-2.8.3.js" />
+    <None Include="Models\scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Models\scripts\jquery-1.10.2.js" />
+    <Content Include="Models\scripts\jquery-1.10.2.min.js" />
+    <Content Include="Models\scripts\jquery-1.10.2.min.map" />
+    <None Include="Models\scripts\jquery-3.1.0.intellisense.js" />
+    <Content Include="Models\scripts\jquery-3.1.0.js" />
+    <Content Include="Models\scripts\jquery-3.1.0.min.js" />
+    <Content Include="Models\scripts\jquery-3.1.0.slim.js" />
+    <Content Include="Models\scripts\jquery-3.1.0.slim.min.js" />
+    <None Include="Models\scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Models\scripts\jquery.validate.js" />
+    <Content Include="Models\scripts\jquery.validate.min.js" />
+    <Content Include="Models\scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Models\scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Models\scripts\modernizr-2.6.2.js" />
+    <Content Include="Models\scripts\modernizr-2.8.3.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\NinjectWebCommon.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CartController.cs" />
     <Compile Include="Controllers\NavController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Global.asax.cs">
@@ -209,10 +210,11 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Product\List.cshtml" />
-    <Content Include="scripts\jquery-3.1.0.slim.min.map" />
-    <Content Include="scripts\jquery-3.1.0.min.map" />
+    <Content Include="Models\scripts\jquery-3.1.0.slim.min.map" />
+    <Content Include="Models\scripts\jquery-3.1.0.min.map" />
     <Content Include="Views\Shared\ProductSummary.cshtml" />
     <Content Include="Views\Nav\Menu.cshtml" />
+    <Content Include="Views\Cart\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
