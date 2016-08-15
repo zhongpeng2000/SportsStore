@@ -15,6 +15,7 @@ namespace SportsStore.WebUI
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            //User the binder def when seeing Cart
             ModelBinders.Binders.Add(typeof(Cart), new CartModelBinders());
         }
     }
