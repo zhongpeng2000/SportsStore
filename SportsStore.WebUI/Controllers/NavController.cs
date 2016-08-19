@@ -25,13 +25,15 @@ namespace SportsStore.WebUI.Controllers
 
 
 
-        public PartialViewResult Menu(string category=null)
+        public PartialViewResult Menu(string category=null, bool horizontalLayout = false)
         {
             // can pass multiple model by ViewBag
             ViewBag.SelectedCategory = category;
 
             IEnumerable<string> categories = repository.Products.Select(x => x.Category).Distinct().OrderBy(x => x);
-            return PartialView(categories);
+
+            string viewName = horizontalLayout ? "MenuHorizontal" : "Menu";
+            return PartialView(viewName,categories);
         }
     }
 }
