@@ -3,6 +3,8 @@
 @{
     ViewBag.Title = "Admin: Edit" + @Model.Name;
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    HtmlHelper.ClientValidationEnabled = true;
+    HtmlHelper.UnobtrusiveJavaScriptEnabled = true;
 }
 <div class="panel">
     <div class="panel-heading">
@@ -12,7 +14,7 @@
 
 
 
-    @using (Html.BeginForm())
+    @using (Html.BeginForm("Edit","Admin"))
     {
         <div class="panel-body">
             @Html.HiddenFor(p => p.ProductID)

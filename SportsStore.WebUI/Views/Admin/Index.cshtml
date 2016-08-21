@@ -30,7 +30,7 @@
                     <td class="text-right">@item.Price.ToString("c")</td>
                     <td class="text-center">@Html.DisplayFor(modelItem => item.Category)</td>
                     <td class="text-center">
-                        @using (Html.BeginForm("Delete", "Addmin"))
+                        @using (Html.BeginForm("Delete", "Admin"))
                 {
                             @Html.Hidden("ProductID", item.ProductID)
                             <input type="submit" class="btn btn-default btn-xs" value="Delete" />
