@@ -12,7 +12,7 @@ namespace SportsStore.WebUI.Controllers
     public class ProductController : Controller
     {
         private IProductRepository repository;
-        public int PageSize = 1;
+        public int PageSize = 4;
 
         public ProductController(IProductRepository productRepository)
         {
