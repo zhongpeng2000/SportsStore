@@ -401,6 +401,7 @@
     <Content Include="Models\scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Models\scripts\modernizr-2.6.2.js" />
     <Content Include="Models\scripts\modernizr-2.8.3.js" />
+    <None Include="Properties\PublishProfiles\SportsStoreAZhong.pubxml" />
     <None Include="Scripts\jquery-3.1.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.1.0.js" />
     <Content Include="Scripts\jquery-3.1.0.min.js" />
